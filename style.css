@@ -1,0 +1,105 @@
+.home{
+    background-color: rgb(220,233,233);
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+li{
+    list-style: none;
+    margin-right: 40px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+li:hover{
+    background-color: rgb(219,233,233);
+}
+.display li{
+    padding: 0 20px;
+    margin: 0;
+}
+.block:hover>ul{
+    display: block;
+}
+table{
+    border-collapse: collapse;
+    align-items: center;
+}
+tr,th{
+    border: 1px solid rgb(56,56,35);
+    padding: 0 20px;
+    background-color: aquamarine;
+}
+.overflow{
+    width: 400px;
+    height: 100px;
+    border: 3px solid;
+    padding: 15px 15px 20px 30px;
+    margin: 15px;
+    border-radius: 15px;
+    overflow: scroll;
+}
+aside{
+    width: 150px;
+    padding-left: 15px;
+    margin-left: 20px;
+    font-style: italic;
+    float: right;
+    background-color: beige;
+    border-radius: 15px;
+}
+h1{
+    color:rgb(0, 177, 177);
+    background-color: aliceblue;
+    width: 200px;
+    margin: 50px;
+    box-shadow: 10px 15px solid black;
+}
+nav{
+    background-color: rgb(178, 216, 216);
+    border-radius: 25px;
+}
+.pic{
+    display: flex;
+    margin: 20px 15px 20px;
+    width: 60px;
+    padding: 20px;
+}
+img{
+    margin-left: 100px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 15px;
+    padding: 0;
+    box-shadow: 1px 10px 30px 2px black;
+}
+.video{
+    background-color: rgb(222, 232, 229);
+    border-radius: 20px;
+    padding: 25px;
+}
+h2{
+    text-align: center;
+}
+audio{
+    margin-left: 100px;
+}
+footer{
+    text-align: center;
+    background-color:rgb(190, 209, 202);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.fa-facebook{
+    color: blue;
+    font-size: 40px;
+    margin: 10px;
+}
+.fa-sharp{
+    color: blue;
+    font-size: 60px;
+}
